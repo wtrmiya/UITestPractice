@@ -8,24 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		863552A62800CDFF00CEF112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552A52800CDFF00CEF112 /* AppDelegate.swift */; };
-		863552A82800CDFF00CEF112 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552A72800CDFF00CEF112 /* SceneDelegate.swift */; };
 		863552AA2800CDFF00CEF112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552A92800CDFF00CEF112 /* ViewController.swift */; };
-		863552AD2800CDFF00CEF112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863552AB2800CDFF00CEF112 /* Main.storyboard */; };
 		863552AF2800CDFF00CEF112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863552AE2800CDFF00CEF112 /* Assets.xcassets */; };
 		863552B22800CDFF00CEF112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863552B02800CDFF00CEF112 /* LaunchScreen.storyboard */; };
-		863552BD2800CE0000CEF112 /* UITestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552BC2800CE0000CEF112 /* UITestPracticeTests.swift */; };
 		863552C72800CE0000CEF112 /* UITestPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552C62800CE0000CEF112 /* UITestPracticeUITests.swift */; };
 		863552C92800CE0000CEF112 /* UITestPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863552C82800CE0000CEF112 /* UITestPracticeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		863552B92800CE0000CEF112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8635529A2800CDFF00CEF112 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 863552A12800CDFF00CEF112;
-			remoteInfo = UITestPractice;
-		};
 		863552C32800CE0000CEF112 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8635529A2800CDFF00CEF112 /* Project object */;
@@ -38,14 +28,10 @@
 /* Begin PBXFileReference section */
 		863552A22800CDFF00CEF112 /* UITestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863552A52800CDFF00CEF112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		863552A72800CDFF00CEF112 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		863552A92800CDFF00CEF112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		863552AC2800CDFF00CEF112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		863552AE2800CDFF00CEF112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863552B12800CDFF00CEF112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		863552B32800CDFF00CEF112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		863552B82800CE0000CEF112 /* UITestPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		863552BC2800CE0000CEF112 /* UITestPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestPracticeTests.swift; sourceTree = "<group>"; };
 		863552C22800CE0000CEF112 /* UITestPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863552C62800CE0000CEF112 /* UITestPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestPracticeUITests.swift; sourceTree = "<group>"; };
 		863552C82800CE0000CEF112 /* UITestPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -53,13 +39,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8635529F2800CDFF00CEF112 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863552B52800CE0000CEF112 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				863552A42800CDFF00CEF112 /* UITestPractice */,
-				863552BB2800CE0000CEF112 /* UITestPracticeTests */,
 				863552C52800CE0000CEF112 /* UITestPracticeUITests */,
 				863552A32800CDFF00CEF112 /* Products */,
 			);
@@ -90,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				863552A22800CDFF00CEF112 /* UITestPractice.app */,
-				863552B82800CE0000CEF112 /* UITestPracticeTests.xctest */,
 				863552C22800CE0000CEF112 /* UITestPracticeUITests.xctest */,
 			);
 			name = Products;
@@ -100,22 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				863552A52800CDFF00CEF112 /* AppDelegate.swift */,
-				863552A72800CDFF00CEF112 /* SceneDelegate.swift */,
 				863552A92800CDFF00CEF112 /* ViewController.swift */,
-				863552AB2800CDFF00CEF112 /* Main.storyboard */,
 				863552AE2800CDFF00CEF112 /* Assets.xcassets */,
 				863552B02800CDFF00CEF112 /* LaunchScreen.storyboard */,
 				863552B32800CDFF00CEF112 /* Info.plist */,
 			);
 			path = UITestPractice;
-			sourceTree = "<group>";
-		};
-		863552BB2800CE0000CEF112 /* UITestPracticeTests */ = {
-			isa = PBXGroup;
-			children = (
-				863552BC2800CE0000CEF112 /* UITestPracticeTests.swift */,
-			);
-			path = UITestPracticeTests;
 			sourceTree = "<group>";
 		};
 		863552C52800CE0000CEF112 /* UITestPracticeUITests */ = {
@@ -146,24 +113,6 @@
 			productName = UITestPractice;
 			productReference = 863552A22800CDFF00CEF112 /* UITestPractice.app */;
 			productType = "com.apple.product-type.application";
-		};
-		863552B72800CE0000CEF112 /* UITestPracticeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 863552CF2800CE0000CEF112 /* Build configuration list for PBXNativeTarget "UITestPracticeTests" */;
-			buildPhases = (
-				863552B42800CE0000CEF112 /* Sources */,
-				863552B52800CE0000CEF112 /* Frameworks */,
-				863552B62800CE0000CEF112 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				863552BA2800CE0000CEF112 /* PBXTargetDependency */,
-			);
-			name = UITestPracticeTests;
-			productName = UITestPracticeTests;
-			productReference = 863552B82800CE0000CEF112 /* UITestPracticeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		863552C12800CE0000CEF112 /* UITestPracticeUITests */ = {
 			isa = PBXNativeTarget;
@@ -196,10 +145,6 @@
 					863552A12800CDFF00CEF112 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					863552B72800CE0000CEF112 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 863552A12800CDFF00CEF112;
-					};
 					863552C12800CE0000CEF112 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 863552A12800CDFF00CEF112;
@@ -220,7 +165,6 @@
 			projectRoot = "";
 			targets = (
 				863552A12800CDFF00CEF112 /* UITestPractice */,
-				863552B72800CE0000CEF112 /* UITestPracticeTests */,
 				863552C12800CE0000CEF112 /* UITestPracticeUITests */,
 			);
 		};
@@ -233,14 +177,6 @@
 			files = (
 				863552B22800CDFF00CEF112 /* LaunchScreen.storyboard in Resources */,
 				863552AF2800CDFF00CEF112 /* Assets.xcassets in Resources */,
-				863552AD2800CDFF00CEF112 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863552B62800CE0000CEF112 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +196,6 @@
 			files = (
 				863552AA2800CDFF00CEF112 /* ViewController.swift in Sources */,
 				863552A62800CDFF00CEF112 /* AppDelegate.swift in Sources */,
-				863552A82800CDFF00CEF112 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863552B42800CE0000CEF112 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				863552BD2800CE0000CEF112 /* UITestPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		863552BA2800CE0000CEF112 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 863552A12800CDFF00CEF112 /* UITestPractice */;
-			targetProxy = 863552B92800CE0000CEF112 /* PBXContainerItemProxy */;
-		};
 		863552C42800CE0000CEF112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 863552A12800CDFF00CEF112 /* UITestPractice */;
@@ -297,14 +219,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		863552AB2800CDFF00CEF112 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				863552AC2800CDFF00CEF112 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		863552B02800CDFF00CEF112 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +358,6 @@
 				INFOPLIST_FILE = UITestPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +385,6 @@
 				INFOPLIST_FILE = UITestPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,46 +397,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		863552D02800CE0000CEF112 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA4VLPKKLD;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.wtrmiya.UITestPracticeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITestPractice.app/UITestPractice";
-			};
-			name = Debug;
-		};
-		863552D12800CE0000CEF112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA4VLPKKLD;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.wtrmiya.UITestPracticeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITestPractice.app/UITestPractice";
 			};
 			name = Release;
 		};
@@ -581,15 +453,6 @@
 			buildConfigurations = (
 				863552CD2800CE0000CEF112 /* Debug */,
 				863552CE2800CE0000CEF112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		863552CF2800CE0000CEF112 /* Build configuration list for PBXNativeTarget "UITestPracticeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				863552D02800CE0000CEF112 /* Debug */,
-				863552D12800CE0000CEF112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
