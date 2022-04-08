@@ -33,6 +33,8 @@ final class TopViewController:UIViewController {
     private func setupUI() {
         view.backgroundColor = .white
         
+        self.navigationItem.title = "Top"
+        
         tableView = UITableView()
         tableView.dataSource = self
         view.addSubview(tableView)
