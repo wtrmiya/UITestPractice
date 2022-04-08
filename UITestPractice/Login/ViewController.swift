@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         textField.borderStyle = .roundedRect
         textField.autocapitalizationType = .none
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "login_name_textfield"
         return textField
     }()
     
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
         textField.borderStyle = .roundedRect
         textField.autocapitalizationType = .none
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "login_password_textfield"
         return textField
     }()
     
@@ -43,6 +45,7 @@ class ViewController: UIViewController {
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.lightGray.cgColor
         button.layer.cornerRadius = 10
+        button.accessibilityIdentifier = "login_login_button"
         return button
     }()
 

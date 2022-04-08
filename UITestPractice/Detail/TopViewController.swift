@@ -36,6 +36,7 @@ final class TopViewController:UIViewController {
         self.navigationItem.title = "Top"
         
         tableView = UITableView()
+        tableView.accessibilityIdentifier = "top_root_view"
         tableView.dataSource = self
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
